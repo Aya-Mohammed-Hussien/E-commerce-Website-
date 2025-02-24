@@ -1,0 +1,40 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Margarine:wght@400;700&display=swap');
+
+/* slick slider categories styling */
+.slider-container .slick-prev,
+.slider-container .slick-next {
+    display: none !important;
+}
+
+/* styling for cards (Products & brands & categories) */
+.card-grid {
+    @apply grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-5 mt-8 cursor-pointer justify-items-center items-center;
+}
+
+/* Heading styling (h2) */
+.heading-style {
+    @apply p-2 md:text-4xl text-2xl font-bold text-green-500 my-8;
+}
+
+/* Navbar Authorized list styling (Brands & Products & Home & Categories) */
+.nav-list {
+    @apply text-lg font-medium rounded-md hover:bg-[#DEE0D9] px-4 md:px-2 transition-all duration-300 text-gray-900 dark:text-white dark:hover:bg-gray-700;
+}
+
+
+/* NavBar-Styling */
+.active {
+    @apply font-bold text-green-600 dark:text-green-400 ;
+}
+/* Fixed home slider  */
+.fixed-slider{
+   @apply h-60 md:h-96 w-full rounded-l-lg;
+}
+
