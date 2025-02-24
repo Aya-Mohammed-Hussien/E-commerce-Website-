@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { WishlistContext } from "../../Context/wishlistContext";
+import { WishlistContext } from "../../Context/WishlistContext";
 import { cartContext } from "../../Context/CartContext";
 import toast from "react-hot-toast";
 import { BeatLoader } from "react-spinners";
