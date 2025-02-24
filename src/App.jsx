@@ -24,7 +24,7 @@ import { Offline } from "react-detect-offline";
 import AllOrders from "./components/AllOrders/AllOrders.jsx";
 import UserContextProvider from "./Context/UserContext.jsx";
 import ForgetPassword from "./components/ForgetPassword/ForgetPassword.jsx";
-import WishlistContextProvider from "./Context/wishlistContext.jsx";
+import WishlistContextProvider from "./Context/WishlistContext.jsx";
 
 
 
