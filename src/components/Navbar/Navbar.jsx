@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { authContext } from "../../Context/AuthContext";
 import { cartContext } from "../../Context/CartContext";
-import { WishlistContext } from "../../Context/wishlistContext";
+import { WishlistContext } from "../../Context/WishlistContext";
 import TopNavSlider from "../TopNavSlider/TopNavSlider";
 import Swal from "sweetalert2";
 
