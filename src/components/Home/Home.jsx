@@ -8,7 +8,7 @@ import { useQuery } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
 import { cartContext } from "../../Context/CartContext.jsx";
 import toast from "react-hot-toast";
-import { WishlistContext } from "../../Context/wishlistContext.jsx";
+import { WishlistContext } from "../../Context/WishlistContext.jsx";
 import { productContext } from "../../Context/ProductContext.jsx";
 import Products from "../Products/Products.jsx";
 

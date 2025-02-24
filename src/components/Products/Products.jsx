@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { productContext } from "../../Context/ProductContext";
 import { BeatLoader } from "react-spinners";
 import { Link } from "react-router-dom";
-import { WishlistContext } from "../../Context/wishlistContext";
+import { WishlistContext } from "../../Context/WishlistContext";
 import toast from "react-hot-toast";
 import { cartContext } from "../../Context/CartContext";
 

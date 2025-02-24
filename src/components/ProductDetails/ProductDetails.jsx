@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 import { BeatLoader } from "react-spinners";
 import { cartContext } from "../../Context/CartContext";
 import toast from "react-hot-toast";
-import { WishlistContext } from "../../Context/wishlistContext";
+import { WishlistContext } from "../../Context/WishlistContext";
 import Slider from "react-slick";
 
 export default function ProductDetails() {
